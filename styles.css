@@ -43,6 +43,10 @@ h1 {
     color: rgb(255, 80, 127);
 }
 
+.img-fluid {
+    margin-top: 50px;
+}
+
 .cakes {
     text-align: center;
     padding: 0px;
@@ -53,11 +57,18 @@ h1 {
     justify-content: center;
     gap: 10px;
     padding: 20px 0;
+    margin-top: 75px;
+    
 }
 
 .cake-images img {
-    width: 20%;
+    width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#middlecake {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .banner-img {
@@ -76,7 +87,26 @@ p {
     text-align: left;
     top: 10px;
     bottom: 10px 0;
+    margin-top: 50px;
 }
+
+.allperks{
+    margin-bottom: 100px;
+}
+
+#perk1 {
+    text-align: center;
+}
+
+#perk2 {
+    text-align: center;
+
+}
+
+#perk3 {
+    text-align: center;
+}
+
 
 .stars {
     margin-top: 10px;
@@ -130,3 +160,32 @@ footer p {
     bottom: 10px 0;
 }
 
+#ourcakestext {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cake-images2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cakerow1 {
+    padding-left: 200px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.leftcake{
+    padding-right: 20px;
+}
+
+.rightcake{
+    padding-left: 20px;
+}
+
+.singlecake{
+    margin-left: 200px;
+}
