@@ -13,6 +13,18 @@ html, body {
     font-family: 'Outfit', sans-serif;
 }
 
+#rotating-text-element {
+    display: inline-block;
+    transition: opacity 0.5s ease-in-out;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: rgb(255, 80, 127);
+    background-color: rgb(255, 224, 224);
+    padding: 10px 0;
+    width: 100%;
+}
+
 .mynav {
     display: flex;
     justify-content: center;
