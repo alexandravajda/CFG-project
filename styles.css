@@ -95,24 +95,6 @@ h1 {
     padding: 0px;
 }  
 
-.cake-images {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 20px 0;
-    margin-top: 75px;
-    
-}
-
-.cake-images img {
-    width: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#middlecake {
-    margin-left: 15px;
-    margin-right: 15px;
-}
 
 .banner-img {
     width: 100%;
@@ -133,23 +115,6 @@ p {
     margin-top: 50px;
 }
 
-.allperks{
-    margin-bottom: 100px;
-}
-
-#perk1 {
-    text-align: center;
-}
-
-#perk2 {
-    text-align: center;
-
-}
-
-#perk3 {
-    text-align: center;
-}
-
 
 .stars {
     margin-top: 10px;
@@ -158,6 +123,23 @@ p {
 .reviews {
     font-size: 10px;
     padding: 0p;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    width: 30%;
+    padding-bottom: 30px;
+    padding-top: 75px;
+}
+
+td{
+    text-align: center;
+    font-size: large;
+    color: rgb(255, 80, 127);
+    padding-bottom: 75px;
 }
 
 input[type="email"] {
@@ -258,3 +240,4 @@ footer p {
     margin-right: auto;
     width: 60%;
 }
+
