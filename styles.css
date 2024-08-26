@@ -14,22 +14,26 @@ html, body {
 }
 
 #rotating-text-element {
+    /* background-color: rgb(255, 224, 224); */
+    background-color: #ffded8;
+    padding: 4px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.rotating-text {
     display: inline-block;
     transition: opacity 0.5s ease-in-out;
     font-size: 12px;
     font-family: 'Outfit', sans-serif;
-    text-align: center;
     color: rgb(255, 80, 127);
-    background-color: rgb(255, 224, 224);
-    padding: 10px 0;
-    width: 100%;
 }
 
 .mynav {
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    background-color: rgb(219, 241, 205);
+    background-color: #fff2ec;
 }
 
 .mynav ul {
@@ -159,7 +163,8 @@ button:hover {
 footer {
     justify-content: right;
     padding: 20px 0;
-    background-color: rgb(219, 241, 205);
+    /* background-color: rgb(219, 241, 205); */
+    background-color: #fff2ec;
 }
 
 footer p {
