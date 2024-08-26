@@ -1,3 +1,10 @@
+function pressAlert() {
+    alert("Thanks for subscribing!");
+}
+
+var popup = document.getElementById("myButton").addEventListener("click",pressAlert)
+
+
 const texts = [
     {
         message: "🍰 New pick up service available - get your cakes fresh! 🍰",
