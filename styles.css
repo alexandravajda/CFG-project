@@ -162,8 +162,8 @@ footer p {
 
 #ourcakestext {
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .cake-images2 {
@@ -172,10 +172,10 @@ footer p {
 }
 
 .cakerow1 {
-    padding-left: 200px;
-    padding-right: 20px;
+    display: block;
     margin-bottom: 50px;
     margin-top: 50px;
+    text-align: center;
 }
 
 .leftcake{
@@ -187,5 +187,8 @@ footer p {
 }
 
 .singlecake{
-    margin-left: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
