@@ -24,18 +24,17 @@ let currentIndex = 0;
 const rotatingTextElement = document.querySelector(".rotating-text");
 
 function updateText() {
-    rotatingTextElement.style.opacity = 0; // Fade out the text
+    rotatingTextElement.style.opacity = 0;
 
     setTimeout(() => {
         rotatingTextElement.textContent = texts[currentIndex].message;
         rotatingTextElement.parentElement.href = texts[currentIndex].url;
-        rotatingTextElement.style.opacity = 1; // Fade in the new text
+        rotatingTextElement.style.opacity = 1;
 
         currentIndex = (currentIndex + 1) % texts.length;
-    }, 500); // Match this duration with the CSS transition duration
+    }, 500);
 }
 
-setInterval(updateText, 3000); // Change text every 3 seconds
+setInterval(updateText, 3000);
 
-// Initialize with the first message
 updateText();
